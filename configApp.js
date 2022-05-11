@@ -9,7 +9,7 @@ class ConfigApp {
     this.app = express();
     this.port = process.env.PORT;
     this.paths = {
-      auth: "/auth/local",
+      auth: "/api/auth/local",
       notices: "/api/dataNotices",
     };
     console.log("Cargando...");
